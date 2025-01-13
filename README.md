@@ -9,3 +9,5 @@ reference: https://gobyexample.com/
 `go mod init`
 `go mod tidy`
 `go run`
+
+## wails for desktop apps.
