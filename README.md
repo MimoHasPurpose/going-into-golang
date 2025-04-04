@@ -4,6 +4,8 @@
     Helooo, I made this repo to show my learning of go language.
     - I will majorly focus on documenting all my proeject in this repo itself.
     - I will try to make android and desktop apps, and definitely backend for web dev.
+    - I will contribute on open-source projects.
+    - I will make this a open-source project.
 <br>
 <br>
 
@@ -20,4 +22,4 @@ reference: https://gobyexample.com/
 - `go mod tidy`
 - `go run`
 
-##### wails for desktop apps.
+##### Wails for desktop apps:
