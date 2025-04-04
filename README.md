@@ -2,8 +2,8 @@
  
  # going-into-golang
  Helooo, I made this repo to show my learning of go language.
- i will majorly focus on making end to end apps.
-
+ - I will majorly focus on documenting all my proeject in this repo itself.
+ - I will try to make android and desktop apps, and definitely backend for web dev.
 <br>
 <br>
 
