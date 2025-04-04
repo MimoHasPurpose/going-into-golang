@@ -1,13 +1,17 @@
-# going-into-golang
+<img align="left" style="width:260px" src="https://media.tenor.com/60-jjmqKO3cAAAAi/go-girl.gif" width="288px">
 
-projects in golang
+# going-into-golang
+Helooo, I will be sharing all my code of golang
+
+##### Projects in golang:
+
 reference: https://gobyexample.com/
 
-## commands:
+####  Basic commands:
 
-`go get module-name`
-`go mod init`
-`go mod tidy`
-`go run`
+- `go get module-name`
+- `go mod init`
+- `go mod tidy`
+- `go run`
 
-## wails for desktop apps.
+##### wails for desktop apps.
