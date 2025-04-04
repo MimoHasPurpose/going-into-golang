@@ -1,7 +1,8 @@
 <img align="left" style="width:260px" src="https://media.tenor.com/60-jjmqKO3cAAAAi/go-girl.gif" width="288px">
  
  # going-into-golang
- Helooo, I will be sharing all my code of golang
+ Helooo, I made this repo to show my learning of go language.
+ i will majorly focus on making end to end apps.
 
 <br>
 <br>
