@@ -14,7 +14,7 @@ func f(arg int)(int , error){
 	return arg+3,nil
 }
 
-var ErrOutOfTea=fmt.Error("no more tea availabe")
+var ErrOutOfTea=fmt.Errorf("no more tea availabe")
 var ErrPower=fmt.Errorf("can't boil water")
 
 func makeTea(arg int) error{
@@ -38,7 +38,7 @@ func main(){
 
 	for i:=range 5{
 		if err:=makeTea(i); err!=nil{
-			if error.Is(err,ErrOutOfTea){
+			if errors.Is(err,ErrOutOfTea){
 				fmt.Println("We should bu new tea! ")
 			}else if errors.Is(err,ErrPower){
 				fmt.Println("Now it is dark. ")
