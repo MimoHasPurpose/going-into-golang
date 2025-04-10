@@ -1,5 +1,5 @@
 // lightweight thread of execution
-// 
+// to invoke a coroutine: go f(s)
 package main
 import(
 	"fmt"
