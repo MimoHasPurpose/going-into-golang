@@ -1,2 +1,6 @@
-b:=[5]int{1,2,3,4,5}
-	// fmt.Println("dcl: ",b)
+select{
+		case msg1:=<-c1:
+			fmt.Println("received",msg1)
+		case msg2:=<-c2:
+			fmt.Println("received",msg2)
+		}
