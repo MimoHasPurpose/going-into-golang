@@ -1,0 +1,1 @@
+// SHA256 hashes used to compute short identities for text blobs.
