@@ -33,8 +33,21 @@ func main(){
 
 	b1:=make([] byte,5)
 	n1,err:=f.Read(b1)
+	check(err)
+	fmt.Printf("%d bytes: %s \n",n1,string(b1[:n1]))
 	
+	o2,err:=f.Seek(6,io.SeekStart)
+	check(err)
+	b2:=make([]byte,2)
+	n2,err:=f.Read(b2)
+	check(err)
+	fmt.Prinntf("%d bytes @%d: ",n2,o2)
+	fmt.Printf("%v\n",string(b2[:n2]))
 
+	_,err=f.Seek(2,io.SeekCurrent)
+	check(err)
+
+	_,err=f.Seek(-4,io.SeekEnd)
 
 
 
