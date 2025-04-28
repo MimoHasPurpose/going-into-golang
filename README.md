@@ -28,8 +28,3 @@
 <br>
 
 reference: https://gobyexample.com/
-
-#### How to run java file:
-
-- open terminal : ```ctrl +tilde```
-- ```javac filename.java```
