@@ -2,6 +2,10 @@
 //  wc -l : -l is a flag.
 // E:\Github\going-into-golang\gobyexample\basics\part-four>.\commandlineflags -word=opt -numb=7 -fork -svar=flag  
 // E:\Github\going-into-golang\gobyexample\basics\part-four>commandlineflags -word=opt
+// E:\Github\going-into-golang\gobyexample\basics\part-four>.\commandlineflags -word=opt a1 a2 a3
+// E:\Github\going-into-golang\gobyexample\basics\part-four>.\commandlineflags -word=opt a1 a2 a3 -numb=7
+// E:\Github\going-into-golang\gobyexample\basics\part-four>.\commandlineflags -wat                      
+
 
 package main
 import (
