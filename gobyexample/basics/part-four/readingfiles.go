@@ -48,7 +48,7 @@ func main(){
 	check(err)
 
 	_,err=f.Seek(-4,io.SeekEnd)
-
+	
 
 
 }
